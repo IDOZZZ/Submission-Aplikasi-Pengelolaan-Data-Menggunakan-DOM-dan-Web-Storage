@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const year = document.getElementById('year').value;
 
         const newBook = {
+            id: +new Date(),
             title,
             author,
             year,
